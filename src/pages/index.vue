@@ -6,7 +6,6 @@
 export default {
   name: 'IndexPage',
   head: {
-    title: 'my website title',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -21,6 +20,7 @@ export default {
         content: 'my website og:title'
       }
     ],
+    title: 'my website title',
   }
 }
 </script>
