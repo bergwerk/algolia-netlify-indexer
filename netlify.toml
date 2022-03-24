@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"
+
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ['main', 'develop']
+  renderJavaScript = true
