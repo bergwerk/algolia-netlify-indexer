@@ -17,6 +17,7 @@ export default {
       {
         hid: 'og-title',
         name: 'og:title',
+        property: 'og:title',
         content: 'my website og:title'
       }
     ],
