@@ -8,7 +8,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Netlify Algolia Test',
-    titleTemplate: `%s | ${process.env.SITE_TITLE ? process.env.SITE_TITLE : 'Netlify Algolia Test'} `,
+    // titleTemplate: `%s | ${process.env.SITE_TITLE ? process.env.SITE_TITLE : 'Netlify Algolia Test'} `,
     htmlAttrs: {
       lang: 'en'
     },
